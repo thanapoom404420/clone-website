@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Literata:opsz,wght@7..72,200&family=Lora&family=Montserrat:wght@100&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Kumbh+Sans&family=Literata:opsz,wght@7..72,200&family=Lora&family=Montserrat:wght@100&family=Roboto+Mono&display=swap');
+
+#nav-btn {
+  font-family: "Fraunces", serif;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+#nav-btn:hover {
+  color: white;
+}
+
+#heading {
+  letter-spacing: 10px;
+  font-family: "Fraunces", serif;
+}
+
+#text {
+  font-family: "Fraunces", serif;
+}
+
+#learn1 {
+  font-family: "Fraunces", serif;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+#learn1::after {
+  position: absolute;
+  content: '';
+  width: 125px;
+  height: 8px;
+  opacity: 40%;
+  background-color: hsl(51, 100%, 49%);
+  top: 15px;
+  z-index: -1;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+#learn1:hover::after {
+  opacity: 100%;
+}
+
+#learn2 {
+  font-family: "Fraunces", serif;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+}
+
+#learn2::after {
+  position: absolute;
+  content: '';
+  width: 125px;
+  height: 8px;
+  opacity: 40%;
+  background-color: hsl(7, 99%, 70%);
+  top: 15px;
+  z-index: -1;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+#learn2:hover::after{
+  opacity: 100%;
+}
+
+#orange{
+  font-family: "Fraunces", serif;
+  color: hsl(198, 62%, 26%);
+}
+
+#cherry{
+  font-family: "Fraunces", serif;
+  color: hsl(167, 40%, 24%);
+}
+
+#people{
+  font-family: "Fraunces", serif;
+}
+
+#bottom {
+  color: hsl(168, 34%, 41%);
+}
